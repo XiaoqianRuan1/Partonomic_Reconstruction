@@ -1,5 +1,5 @@
 # Partonomic_Reconstruction
-<h1 align="center">Learning Partonomic 3D Reconstruction from Image Collections</h1>
+<h2 align="center"><strong>Learning Partonomic 3D Reconstruction from Image Collections</strong>strong</h2>
   
 ![Qualitative Results](teaser.gif)
 ## Installation
