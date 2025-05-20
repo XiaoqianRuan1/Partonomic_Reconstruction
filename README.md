@@ -13,6 +13,6 @@ Please download our generated dataset at the following links:
 |:----------:|:----------:|
 | ShapeNetPart | |
 | PartNet | |
-
+| CUB-200-2011 | |
 ## Training
 
