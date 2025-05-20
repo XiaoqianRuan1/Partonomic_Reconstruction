@@ -1,4 +1,4 @@
-# Partonomic_Reconstruction
+# 3D Partonomic Reconstruction
   
 ![Qualitative Results](teaser.gif)
 ## Installation
