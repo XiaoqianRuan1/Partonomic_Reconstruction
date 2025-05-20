@@ -5,7 +5,7 @@
 ### Create conda environment
 ```bash
 conda env create -f environment.yml
-conda activate partonomic
+conda activate part
 ```
 ## Datasets
 Please download our generated dataset at the following links:
