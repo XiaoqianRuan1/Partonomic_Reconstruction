@@ -1,5 +1,6 @@
 # Partonomic_Reconstruction
-<h1 align="center">Learning Partonomic 3D Reconstruction from Image Collections
+<h1 align="center">Learning Partonomic 3D Reconstruction from Image Collections</h1>
+  
 ![Qualitative Results](teaser.gif)
 ## Installation
 ### Create conda environment
