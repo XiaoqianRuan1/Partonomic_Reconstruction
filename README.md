@@ -29,4 +29,7 @@ Results are saved at ```runs/${DATASET}/${DATE}_${run_tag}``` where ```DATASET``
 
 - ```bash cub.yml``` for CUB-200-2011 dataset
 
-
+## Evaluation
+A model is evaluated at the end of training. To evaluate a pretrained model,
+- Create a new folder and move this model
+- 
