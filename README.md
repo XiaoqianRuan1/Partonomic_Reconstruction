@@ -30,6 +30,10 @@ Results are saved at ```runs/${DATASET}/${DATE}_${run_tag}``` where ```DATASET``
 - ```bash cub.yml``` for CUB-200-2011 dataset
 
 ## Evaluation
-A model is evaluated at the end of training. To evaluate a pretrained model,
+A model is evaluated at the end of training. To evaluate a pretrained model
 - Create a new folder and move this model
-- 
+- Modify the filename.yml by pointing the folder under ```bash ${resume}```
+- lanuch the evaluation
+```bash
+cuda=gpu_id config=snp/airplane.yml tag=airplane_eval ./script/pipeline.sh
+```
