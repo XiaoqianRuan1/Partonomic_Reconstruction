@@ -1,0 +1,70 @@
+dataset:
+  name: partnet
+  categories: [mug]
+model:
+  name: unicorn
+  shape:
+    init: ellipse
+    scale: 0.4
+    use_mean_txt: True
+    direct_field:
+      powers: [2, 8, 32]
+      milestones: [522, 1044, 1566]
+      n_field_units: 512 
+      zero_last_init: False
+    weights_field:
+      powers: [2, 8, 32]
+      milestones: [522, 1044, 1566]
+      #milestones: [10, 32, 53]
+      n_field_units: 512
+      zero_last_init: False
+  mesh:
+    use_mean_txt: True
+    texture_uv:
+      #img_size: 64
+      powers: [2, 8, 32]
+      #milestones: [10, 20, 30]
+      milestones: [0, 522, 1044]
+  renderer:
+    cameras:
+      name: perspective
+      focal_length: 3.732050895690918
+    faces_per_pixel: 50
+  rend_predictor:
+    alternate_optim: True
+    azim_range: [0, 360]
+    elev_range: [30, 30]
+    roll_range: [0, 0]
+    T_range: [0.2, 0.2, 0]
+    scale_range: [0.5, 0.5, 0.5]
+  milestones:
+    freeze_scale_predictor: 174
+    constant_txt: 522
+  loss:
+    name: mse
+    rgb_weight: 1
+    mask_weight: 0.1
+    part_weight: 1
+    #flip_weight: 1
+    perceptual_weight: 10
+    laplacian_weight: 0.01
+    normal_weight: 0.01
+    uniform_weight: 0.2
+    swap_weight: 1
+training:
+  batch_size: 32
+  n_workers: 4
+  optimizer:
+    name: adam
+    lr: 1.0e-4
+  scheduler:
+    name: multi_step
+    gamma: 0.2
+    milestones: [2000]
+  n_epoches: 2100
+  save_epoches: [522, 1044, 1566]
+  train_stat_interval: 2000
+  val_stat_interval: 4000
+  seed: 24840
+  visualizer_port: 
+  resume: /data/unicorn-main/runs/partnet/1012_mug/
