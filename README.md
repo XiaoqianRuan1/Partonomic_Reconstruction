@@ -24,7 +24,9 @@ Results are saved at ```runs/${DATASET}/${DATE}_${run_tag}``` where ```DATASET``
 
 ### Configs and guidences
 ```bash snp/*.yml``` for ShapeNetPart category
+
 ```bash part/*.yml``` for PartNet category
+
 ```bash cub.yml``` for CUB-200-2011 dataset
 
 
