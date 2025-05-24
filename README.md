@@ -15,4 +15,7 @@ Please download our generated dataset at the following links:
 | PartNet | [PartNet](https://huggingface.co/datasets/xiaoqian12/Partonomic/blob/main/PartNet.zip) |
 | CUB-200-2011 | [CUB-200-2011](https://huggingface.co/datasets/xiaoqian12/Partonomic/blob/main/cub_new.zip)|
 ## Training
-To run 
+To launch a training from scratch, run
+```bash
+cuda=gpu_id config=filename.yml tag=run_tag ./script/pipeline.sh
+```
