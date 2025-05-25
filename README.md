@@ -23,11 +23,11 @@ where gpu_id is a device id, filename.yml is a config folder, run_tag is a tag f
 Results are saved at ```runs/${DATASET}/${DATE}_${run_tag}``` where ```DATASET``` is the dataset name specified in ```filename.yml``` and ```DATE``` is the current date in ```mmdd``` format. 
 
 ### Configs and guidences
-- ```bash snp/*.yml``` for ShapeNetPart category
+- ```snp/*.yml``` for ShapeNetPart category
 
-- ```bash part/*.yml``` for PartNet category
+- ```part/*.yml``` for PartNet category
 
-- ```bash cub.yml``` for CUB-200-2011 dataset
+- ```cub.yml``` for CUB-200-2011 dataset
 
 ## Evaluation
 A model is evaluated at the end of training. To evaluate a pretrained model
