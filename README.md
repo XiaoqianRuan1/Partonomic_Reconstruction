@@ -36,7 +36,7 @@ A model is evaluated at the end of training. To evaluate a pretrained model
 - Modify the filename.yml by pointing the folder under ```${resume}```
 - lanuch the evaluation
 ```bash
-cuda=gpu_id config=snp/airplane.yml tag=airplane_eval ./script/pipeline.sh
+cuda=gpu_id config=snp/car.yml tag=car_eval ./script/pipeline.sh
 ```
 ## References
 If you find our work helpful, please consider citing our paper:
