@@ -51,4 +51,4 @@ If you find our work helpful, please consider citing our paper:
 ```
 
 ## Acknowledge
-Our project learns from [Unicorn](https://arxiv.org/pdf/2204.10310) and [AST](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03170.pdf)
+Our project learns from [Unicorn](https://arxiv.org/pdf/2204.10310) and [AST](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03170.pdf).
