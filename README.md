@@ -38,3 +38,17 @@ A model is evaluated at the end of training. To evaluate a pretrained model
 ```bash
 cuda=gpu_id config=snp/airplane.yml tag=airplane_eval ./script/pipeline.sh
 ```
+## References
+If you find our work helpful, please consider citing our paper:
+```bash
+@inproceedings{ruan2025learning,
+  title={Learning Partonomic 3D Reconstruction from Image Collections},
+  author={Ruan, Xiaoqian and Yu, Pei and Jia, Dian and Park, Hyeonjeong and Xiong, Peixi and Tang, Wei},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={26734--26744},
+  year={2025}
+}
+```
+
+## Acknowledge
+Our project learns from [Unicorn](https://arxiv.org/pdf/2204.10310) and [AST](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03170.pdf)
