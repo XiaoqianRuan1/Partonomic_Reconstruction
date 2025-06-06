@@ -1,6 +1,7 @@
 # Learning Partonomic 3D Reconstruction from Image Collections
-  
-![Qualitative Results](teaser.gif)
+This is an implementation of the CVPR25 paper ["Learning Partonomic 3D Reconstruction from Image Collections"](https://openaccess.thecvf.com/content/CVPR2025/papers/Ruan_Learning_Partonomic_3D_Reconstruction_from_Image_Collections_CVPR_2025_paper.pdf). 
+
+
 ## Installation
 ### Create conda environment
 ```bash
